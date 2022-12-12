@@ -16,7 +16,7 @@ To install Vue CLI globally you can use the following command:
 ```
 npm install -g @vue/cli
 ```
-# OR
+OR
 ```
 yarn global add @vue/cli
 ```
