@@ -49,3 +49,19 @@ npm install -D stylus-loader stylus
 ```
 vue add tailwind
 ```
+
+# Build
+
+Open vue.config.js and add the following code:
+```
+module.exports = {
+  publicPath: './'
+}
+```
+
+Then:
+```
+npm run build
+```
+
+This will create a dist folder with your project inside of.
