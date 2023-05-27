@@ -1,11 +1,11 @@
-# Must have node, npm, and npx to use Vue CLI.
+# Must have Node to use Vue CLI.
 
-To install Node with NPM via command line you must install Homebrew:
+To install Node via command line on MAC you must install Homebrew:
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-Then you can install Node with NPM using the following command:
+Then you can install Node using the following command:
 ```bash
 brew install node
 ```
