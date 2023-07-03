@@ -32,6 +32,11 @@ SASS
 ```bash
 npm install -D sass-loader sass
 ```
+OR
+```bash
+yarn install -D sass-loader sass
+yarn add sass-loader sass --dev 
+```
 
 Less
 ```bash
@@ -48,6 +53,11 @@ npm install -D stylus-loader stylus
 
 ```bash
 vue add tailwind
+```
+
+# Optional, Daisy UI
+```
+yarn add daisyui@latest
 ```
     
 # Router
