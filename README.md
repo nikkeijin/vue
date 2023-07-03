@@ -78,7 +78,8 @@ export default router;
 
 Hash Mode
 
-When you switch to hash mode, Vue Router uses the hash portion of the URL (example.com/#/about) to handle routing. This mode does not require any server configuration changes and works out of the box on most shared hosting servers.
+When you switch to hash mode, Vue Router uses the hash portion of the URL (example.com/#/about) to handle routing.
+This mode does not require any server configuration changes and works out of the box on most shared hosting servers.
 
 */
 
