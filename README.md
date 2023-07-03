@@ -62,6 +62,51 @@ module.exports = {
 Then:
 ```bash
 npm run build
+OR
+yarn run build
 ```
 
 This will create a dist folder with your project inside of.
+
+# Router
+
+To switch the mode of router modify your router initialization in router/main.ts as follows:
+    
+```JavaScript
+/*
+
+################################################## 
+
+History Mode
+
+*/
+
+import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
+
+const router = createRouter({
+  history: createWebHistory(process.env.BASE_URL),
+  routes,
+});
+
+export default router;
+
+/*
+
+##################################################
+
+Hash Mode
+
+When you switch to hash mode, Vue Router uses the hash portion of the URL (example.com/#/about) to handle routing. This mode does not require any server configuration changes and works out of the box on most shared hosting servers.
+
+*/
+
+import { createRouter, createWebHashHistory, RouteRecordRaw } from "vue-router";
+
+const router = createRouter({
+  history: createWebHashHistory(),
+  routes,
+});
+
+export default router;
+
+```
