@@ -49,25 +49,7 @@ npm install -D stylus-loader stylus
 ```bash
 vue add tailwind
 ```
-
-# Build
-
-Open vue.config.js and add the following code:
-```bash
-module.exports = {
-  publicPath: './'
-}
-```
-
-Then:
-```bash
-npm run build
-OR
-yarn run build
-```
-
-This will create a dist folder with your project inside of.
-
+    
 # Router
 
 To switch the mode of router modify your router initialization in router/main.ts as follows:
@@ -110,3 +92,21 @@ const router = createRouter({
 export default router;
 
 ```
+    
+# Build
+
+Open vue.config.js and add the following code:
+```bash
+module.exports = {
+  publicPath: './'
+}
+```
+
+Then:
+```bash
+npm run build
+OR
+yarn run build
+```
+
+This will create a dist folder with your project inside of.
