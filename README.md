@@ -21,7 +21,7 @@ OR
 yarn global add @vue/cli
 ```
 
-Create a project:
+# Create a project
 ```bash
 vue create my-project
 ```
