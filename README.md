@@ -61,6 +61,8 @@ To switch the mode of router modify your router initialization in router/main.ts
 
 History Mode
 
+By default, Vue Router uses history mode, which requires server configuration to handle client-side routing correctly.
+
 */
 
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
