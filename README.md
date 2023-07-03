@@ -54,8 +54,7 @@ npm install -D stylus-loader stylus
 ```bash
 vue add tailwind
 ```
-
-# Optional, Daisy UI
+Optional, Daisy UI:
 ```
 yarn add daisyui@latest
 ```
