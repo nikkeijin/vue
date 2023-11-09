@@ -16,10 +16,6 @@ To install Vue CLI globally you can use the following command:
 ```bash
 npm install -g @vue/cli
 ```
-OR
-```bash
-yarn global add @vue/cli
-```
 
 # Create a project
 ```bash
@@ -56,7 +52,7 @@ vue add tailwind
 ```
 Optional, Daisy UI:
 ```
-yarn add daisyui@latest
+npm add daisyui@latest
 ```
     
 # Router
@@ -117,8 +113,6 @@ module.exports = {
 Then:
 ```bash
 npm run build
-OR
-yarn run build
 ```
 
 This will create a dist folder with your project inside of.
